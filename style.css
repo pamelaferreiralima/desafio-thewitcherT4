@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&family=Roboto:wght@300;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  list-style: none;
+  text-transform: uppercase;
+}
+body {
+  background-image: url("https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:3e5bdfff-8c40-42c0-8fd9-125ed8881d4e;revision=0?component_id=2aa22924-402c-4d35-bcf9-2acd27754d88&api_key=CometServer1&access_token=1636611777_urn%3Aaaid%3Asc%3AUS%3A3e5bdfff-8c40-42c0-8fd9-125ed8881d4e%3Bpublic_07bb747e8b6d861fcc2d95a7aa703f3f18f173b3");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.container-header {
+  display: flex;
+  justify-content: space-around;
+}
+.container-header img {
+  width: 2.5vw;
+}
+.container-header h1 {
+  font-weight: 100;
+}
+.container-list {
+  display: flex;
+  width: 30vw;
+}
+.container-list li {
+  padding: 10% 5% 0 0;
+  font-size: 1.5rem;
+}
+li:hover {
+  cursor: pointer;
+  font-weight: bold;
+}
+.box-header {
+  width: 20vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+h1 {
+  margin-top: 15%;
+}
+main {
+  height: 95%;
+  background-image: url("https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:3e5bdfff-8c40-42c0-8fd9-125ed8881d4e;revision=0?component_id=7a8c854a-a5c6-4f77-bb53-8c7f1154222c&api_key=CometServer1&access_token=1636611777_urn%3Aaaid%3Asc%3AUS%3A3e5bdfff-8c40-42c0-8fd9-125ed8881d4e%3Bpublic_07bb747e8b6d861fcc2d95a7aa703f3f18f173b3");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.container-main {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10%;
+}
+.witcher-main img {
+  width: 20vw;
+}
+.button img {
+  width: 15vw;
+}
+.button {
+  height: 8vh;
+  display: flex;
+  align-items: flex-end;
+}
